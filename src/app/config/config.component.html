@@ -1,0 +1,8 @@
+<p>
+  <input [(ngModel)]="word" (keyup.enter)="showConfig()">
+  <button (click)="showConfig()">Search Definition</button>
+</p>
+<ul>
+  <li>{{config.German}}</li>
+  <li>{{config.English}}</li>
+</ul>
